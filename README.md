@@ -78,7 +78,7 @@ IN THIS WAY URLS AND VIEWS ARE CONNECTED THROUGH SETTING
 
 
 #ADMIN
- from.models import signup
+ from.models import signup<br>
     class SignUpAdmin(admin.models.Admin)
     class meta:
     models = signup
