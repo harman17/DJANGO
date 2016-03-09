@@ -30,59 +30,59 @@ FOR DJANGO WE HAVE TO INSTALL<br>
 ##IN THIS WAY DJANGO IS  INSTALLED BY ACTIVATING VIRTUALENV
 
 #This framework works according to MVC framework 
-   ** model  **
-   ** view  **
-   ** controller **
+   **model**<br>
+   **view**<br>
+   **controller**<br>
   
-1. MODEL:- Model works at background of the project.It manages the database of your project.
-2. VIEW:- it works at frontend .how the website looks.
-3. controller:- It controll or manages the working of molels and views
+1. MODEL:- Model works at background of the project.It manages the database of your project.<br>
+2. VIEW:- it works at frontend .how the website looks.<br>
+3. controller:- It controll or manages the working of molels and views<br>
 
-#FOR MAKING THE DATABASE OR WORKING ON ADMIN PAGE
-   command: python manage.py createsuperuser (for old version syncdb is used instead of superuser)
-   This creates the admin page of ur website by requeting username and password
+#FOR MAKING THE DATABASE OR WORKING ON ADMIN PAGE<br>
+   command: python manage.py createsuperuser (for old version syncdb is used instead of superuser)<br>
+   This creates the admin page of ur website by requeting username and password<br>
    
 #STARTING APP
-   COMAND: startapp 'app name'
-   This make the new folder in the project having subfolderss like
-   1. migrations
-   2. models
-   3. admin
+   COMAND: startapp 'app name'<br>
+   This make the new folder in the project having subfolderss like<br>
+   1. migrations<br>
+   2. models<br>
+   3. admin<br>
 
    
 #URLS
-  when we request something URLS controll the request andsend back the data acc. to our request.therefore we have to define in url in   which we are requesting in views by giving the command
-   command: url(r'^$', 'views destination', name='filename'),
-   Note: template must exist whose request is made.
+  when we request something URLS controll the request andsend back the data acc. to our request.therefore we have to define in url in   which we are requesting in views by giving the command<br>
+   command: url(r'^$', 'views destination', name='filename'),<br>
+   Note: template must exist whose request is made.<br>
    
 #DJANGO SETTINGS
-   now in django settings 
-     IN installed apps we have to define our app for for worling well
-     IN dirs we have to set basedir 
-     command:[os.path.join(BASE_DIR, "templates")]
+   now in django settings<br> 
+     IN installed apps we have to define our app for for worling well<br>
+     IN dirs we have to set basedir <br>
+     command:[os.path.join(BASE_DIR, "templates")]<br>
 
 IN THIS WAY URLS AND VIEWS ARE CONNECTED THROUGH SETTING
 
 #MODELS
-   we make a class in models and define the feilds as per requirement for ex:
-   class SignUp(models.Model):
-   email = models.EmailField()
-   full_name = models.CharField()
+   we make a class in models and define the feilds as per requirement for ex:<br>
+   class SignUp(models.Model):<br>
+   email = models.EmailField()<br>
+   full_name = models.CharField()<br>
    
-   now after every change we have to make the migrations and run the server
-   command: python manage.py makemigrations
-            python manage.py migrate
-            python manage.py runserver
-   This will create the moled in admin page
+   now after every change we have to make the migrations and run the server<br>
+   command: python manage.py makemigrations<br>
+            python manage.py migrate<br>
+            python manage.py runserver<br>
+   This will create the moled in admin page<br>
    now to show the form in admin page we have to import this form in admin page
 
 
 #ADMIN
  from.models import signup<br>
-    class SignUpAdmin(admin.models.Admin)
-    class meta:
-    models = signup
-  This creates the from in admin page 
+    class SignUpAdmin(admin.models.Admin)<br>
+    class meta:<br>
+    models = signup<br>
+  This creates the from in admin page <br>
 
 
 
