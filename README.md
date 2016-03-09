@@ -1,16 +1,16 @@
-# DJANGO
+# DJANGO<br>
 Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. It's free and open source.
 
 Django's primary goal is to ease the creation of complex, database-driven websites. Django emphasizes reusability and "pluggability" of components, rapid development, and the principle of don't repeat yourself.
 
-#HOW TO INSTALL
+#HOW TO INSTALL<br>
 
-FOR DJANGO WE HAVE TO INSTALL
+FOR DJANGO WE HAVE TO INSTALL<br>
 #1.
-   ** PYTHON  **
-   ** PIP  ** (FOR MANAGE SOFTWARE PACKAGES) 
+   ** PYTHON  **<br>
+   ** PIP  ** (FOR MANAGE SOFTWARE PACKAGES)<br> 
    
-       FOR THIS TO INSTALL WE HAVE TO SET UP ENVRONMENT PATH FOR PYTHON, SCRIPTS, THEN FOR DJANGO
+       FOR THIS TO INSTALL WE HAVE TO SET UP ENVRONMENT PATH FOR PYTHON, SCRIPTS, THEN FOR DJANGO<br>
      NOW ENVIRONMENT PATH HAS BEEN SET. NOW WE NEED TO INSTALL PYTHON AND THEN INSTALL PIP BY GIVING THE COMMAND (PYTHON GET PIP.PY) 
 #2.
    SECOND STEP IS TO MAKE THE VIRTUAL ENVIRONMENT(for making a particular project )
