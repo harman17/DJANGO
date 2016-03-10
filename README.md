@@ -179,8 +179,17 @@ THEN import static files in urls<br><br>
       <br>
   
 #DJANGO REGISTRATION REDUX
-   This package uses the basic registration and authentication of users. these packages have forms with connected database of registrtion and login forms.these have various steps<br>
-   1. we have to copy the registration files in app folder 
-   2. then install tis package by giving the command "pip install django-registration-redux"
-   3. then we have to define in settings in INSTALLED APPS 'registration'
- 
+   This package uses the basic registration and authentication of users. 
+    for login page<br><br>
+  in settings set "SITE_ID = 1"<br>
+It will generate the login page (127.0.0.1:8000/accounts/login)<br>
+
+NOW connect these pages with the navbar menu like:<br><br>
+
+   <li><a href="{% url 'auth_logout' %}">LOGOUT</a></li>
+            {% else %}
+             <li><a href="{% url 'registration_register' %}">REGISTER</a></li>
+             
+   HENCE This is all about registration process.
+                  
+      
